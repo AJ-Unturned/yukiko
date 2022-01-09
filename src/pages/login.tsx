@@ -41,7 +41,7 @@ const Login: NextPage = () =>
                             <div className='flex flex-col justify-center items-center'>
                                 <h1 className='text-white text-center text-2xl mb-3'>Login</h1>
                                 <p className='text-red-500 duration-200 flex flex-row mb-2'><MdErrorOutline className={errorMessage ? 'mt-1 mr-1' : 'hidden'} /> {errorMessage ? errorMessage : ''}</p>
-                                <form action="" className='flex space-y-5' onSubmit={handleSubmit}>
+                                <form action='' className='flex space-y-5' onSubmit={handleSubmit}>
                                     <div className='flex flex-col left-0'>
                                         <input
                                             type="text" name="username"
